@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-19T18:20:47Z" name="Suite" finished-at="2021-06-19T18:21:29Z" duration-ms="42118">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.AdminRunner@3148f668]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.employeeRunner@69f1a286]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.customerRunner@71e9ebae]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-06-19T18:20:47Z" name="Admin module TestCase" finished-at="2021-06-19T18:21:08Z" duration-ms="21317">
+      <class name="testrunner.AdminRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner.AdminRunner@3148f668]" started-at="2021-06-19T13:20:47Z" name="setUpClass" finished-at="2021-06-19T13:20:49Z" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.AdminRunner@3148f668]" started-at="2021-06-19T13:20:49Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-06-19T13:21:07Z" duration-ms="17825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.AdminRunner@3148f668]" started-at="2021-06-19T13:21:07Z" name="tearDownClass" finished-at="2021-06-19T13:21:08Z" duration-ms="1571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.AdminRunner -->
+    </test> <!-- Admin module TestCase -->
+    <test started-at="2021-06-19T18:21:09Z" name="Employee module TestCase" finished-at="2021-06-19T18:21:19Z" duration-ms="10604">
+      <class name="testrunner.employeeRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner.employeeRunner@69f1a286]" started-at="2021-06-19T13:21:09Z" name="setUpClass" finished-at="2021-06-19T13:21:09Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.employeeRunner@69f1a286]" started-at="2021-06-19T13:21:09Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-06-19T13:21:19Z" duration-ms="10139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.employeeRunner@69f1a286]" started-at="2021-06-19T13:21:19Z" name="tearDownClass" finished-at="2021-06-19T13:21:19Z" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.employeeRunner -->
+    </test> <!-- Employee module TestCase -->
+    <test started-at="2021-06-19T18:21:19Z" name="customer module TestCase" finished-at="2021-06-19T18:21:29Z" duration-ms="10008">
+      <class name="testrunner.customerRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner.customerRunner@71e9ebae]" started-at="2021-06-19T13:21:19Z" name="setUpClass" finished-at="2021-06-19T13:21:19Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.customerRunner@71e9ebae]" started-at="2021-06-19T13:21:19Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-06-19T13:21:29Z" duration-ms="9601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.customerRunner@71e9ebae]" started-at="2021-06-19T13:21:29Z" name="tearDownClass" finished-at="2021-06-19T13:21:29Z" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.customerRunner -->
+    </test> <!-- customer module TestCase -->
+  </suite> <!-- Suite -->
+</testng-results>
